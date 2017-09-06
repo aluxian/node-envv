@@ -1,0 +1,32 @@
+{
+  "name": "envv",
+  "version": "1.0.0",
+  "description": "Simple util for config files that checks and returns an env var.",
+  "main": "index.js",
+  "scripts": {
+    "test": "semistandard && jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/aluxian/node-envv.git"
+  },
+  "keywords": [
+    "env",
+    "config",
+    "vars",
+    "variables",
+    "environment",
+    "configuration"
+  ],
+  "author": "Alexandru Rosianu <me@aluxian.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aluxian/node-envv/issues"
+  },
+  "homepage": "https://github.com/aluxian/node-envv#readme",
+  "devDependencies": {
+    "expect": "21.0.0",
+    "jest": "21.0.1",
+    "semistandard": "11.0.0"
+  }
+}
