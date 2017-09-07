@@ -4,7 +4,7 @@
   "description": "Simple util for config files that checks and returns an env var.",
   "main": "index.js",
   "scripts": {
-    "test": "semistandard && jest"
+    "test": "semistandard && jest && codecov"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,12 @@
   },
   "homepage": "https://github.com/aluxian/node-envv#readme",
   "devDependencies": {
+    "codecov": "2.3.0",
     "expect": "21.0.0",
     "jest": "21.0.1",
     "semistandard": "11.0.0"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }
