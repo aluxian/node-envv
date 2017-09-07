@@ -1,3 +1,5 @@
+'use strict';
+
 const envv = require('..');
 
 module.exports = {

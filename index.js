@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * @param {string} name the name of the env var to retrieve, as found in process.env
  * @param {any} defaultValue return this value if process.env[name] is undefined
