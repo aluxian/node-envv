@@ -8,8 +8,6 @@
 
 Simple util for config files that checks and returns an env var.
 
-[![NPM](https://nodei.co/npm/envv.png)](https://nodei.co/npm/envv/)
-
 ## Installation
 
 ```sh
