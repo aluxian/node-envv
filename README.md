@@ -1,5 +1,11 @@
 # envv
 
+[![CircleCI](https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg)](https://circleci.com/gh/aluxian/node-envv)
+[![codecov](https://codecov.io/gh/aluxian/node-envv/branch/master/graph/badge.svg)](https://codecov.io/gh/aluxian/node-envv)
+[![npm](https://img.shields.io/npm/v/envv.svg)](https://www.npmjs.com/package/envv)
+[![License MIT](https://img.shields.io/npm/l/envv.svg)](LICENSE)
+[![Bitcoin Donate](https://img.shields.io/badge/bitcoin-donate-orange.svg)]()
+
 Simple util for config files that checks and returns an env var.
 
 [![NPM](https://nodei.co/npm/envv.png)](https://nodei.co/npm/envv/)
