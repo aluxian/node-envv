@@ -7,9 +7,9 @@
  * @throws if both the env value and defaultValue are undefined
  */
 function envv (name, defaultValue) {
-  if (!name) throw new Error(`envv() arguments 'name' is required`);
-  if (typeof name !== 'string') throw new TypeError(`envv() arguments 'name' must be a string`);
-  if (arguments.length > 2) throw new Error(`envv() expected at most 2 argumentss`);
+  if (!name) throw new Error(`envv() argument 'name' is required`);
+  if (typeof name !== 'string') throw new TypeError(`envv() argument 'name' must be a string`);
+  if (arguments.length > 2) throw new Error(`envv() expected at most 2 arguments`);
 
   let value = process.env[name];
 
