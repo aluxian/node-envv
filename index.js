@@ -9,8 +9,8 @@
  */
 function envv (name, defaultValue = undefined, parseAsType = undefined) {
   if (!name) throw new Error(`envv() argument 'name' is required`);
-  if (typeof name !== 'string') { throw new TypeError(`envv() argument 'name' must be a string`); }
-  if (arguments.length > 3) { throw new Error(`envv() expected at most 3 arguments`); }
+  if (typeof name !== 'string') throw new TypeError(`envv() argument 'name' must be a string`);
+  if (arguments.length > 2) throw new Error(`envv() expected at most 2 arguments`);
 
   let value = process.env[name];
 

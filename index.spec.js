@@ -8,7 +8,7 @@ describe('envv', () => {
     expect(() => envv()).toThrow();
     expect(() => envv(5)).toThrow();
     expect(() => envv('')).toThrow();
-    expect(() => envv('ENVV_TEST', 'whatever', String, 'extra')).toThrow();
+    expect(() => envv('ENVV_TEST', 'whatever', 'extra')).toThrow();
   });
 
   it('should return the env value if it is given', () => {
